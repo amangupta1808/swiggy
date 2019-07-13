@@ -1,0 +1,232 @@
+body{
+    
+    font-family: 'Lato', sans-serif;
+    
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) ,url("back.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+h1{ font-weight: 2.5rem;
+    font-style: lato;
+    font-size: 4rem;
+    color:white;
+}
+.text{
+    position: absolute;
+    top:40%;
+    left: 20%;
+}
+
+.a1:link,.a1:visited {
+  
+    color: white;
+ background-color: #27ae60;
+ border:0.3rem solid #27ae60 ;
+}
+.a2:link,.a2:visited {
+    background-size: 2rem;
+    color:#2ecc71;
+    border:0.3rem solid #2ecc71;
+}
+.button:link,.button:visited { display: inline-block;
+    text-decoration: none;
+    font-size: 2rem;
+    background-size: 1rem;
+    border-radius: 50px;
+    /* transition: transform .2s; */
+    margin: 1rem;
+    padding: 0.5rem;
+    
+}
+.button:hover , .button:active{
+    transform: scale(1.2);
+}
+.a1:hover ,.a1:active{
+    background-color: #2ecc71
+}
+.a2:hover ,.a2:active{
+    color: white;
+    background-color: #2ecc71
+}
+
+.top{ float:right;
+    margin-top: 30px;
+    padding: 2rem;
+    color:white;
+    font-size: 1.5rem;
+text-decoration: none;
+}
+.top:hover,.top:active{
+    border-bottom :1px solid #27ae60;
+    color: #27ae60 ;
+    padding-bottom: 0.5rem;
+    
+}
+    
+    h2{
+        color: black;
+        text-align: center;
+        font-size: 3rem;
+
+    }
+    p{text-align: left;
+        font-size: 1.2rem;
+    
+    }
+.mainicon{
+    display: flex;
+}
+.mainicon i{
+    color:#27ae60
+;
+}
+.icon{
+    text-align: center;
+    padding: 2rem;
+}
+ .iphone{
+   margin-left: 220px;
+   /* margin-top: 30px; */
+   
+} 
+
+
+.slide3{
+    margin-top: 4%;
+    display:flex;
+   
+
+}
+.data{
+    
+    display: flex;
+   
+    
+}
+.ms3{
+    background-color: ghostwhite;
+}
+.mdata{
+    margin-top: 50px;
+}
+.data h1{
+    text-align: center;
+    font-size: 1.8rem;
+    color: #27ae60;
+    border-radius:  50%;
+     background-color: white;
+    border:0.3rem solid #27ae60 ;
+    padding: 20px;
+    margin: .2rem;
+height:30px;
+ width: 30px;
+}
+.data p{ 
+    font-size: 1.5rem;
+    /* margin-top: px;  */
+    padding: 1.2rem;
+}
+.slide4{
+    display: flex;
+    padding: 2rem;
+    margin: 2rem;
+}
+.cities{
+    padding: 4rem;
+   
+}
+.merge i{
+    color:#27ae60;
+    padding: 0.5rem;
+    
+   font-size: 2rem;
+   
+    
+}
+li{
+    list-style-type: none;
+}
+.merge li{
+   
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
+.photo{
+    height: 60%;
+    width: 120%;
+}
+.merge{
+    display: flex;
+    margin: 0%;
+}
+.slide5{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(5, 5, 5, 0.925)) ,url("download(7).jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: cover;
+}
+.slide5 h2{
+    color: white;
+
+}
+.slide5 p{
+    text-align: left;
+    color: white;
+    font-style: italic;
+    padding: 3rem;
+    margin-top: .1rem
+
+}
+.slide5 i{
+    color: white;
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+.a123 img{
+    padding: 1.2rem;
+    border-radius: 50%;
+    text-align: left;
+}
+.quote{
+    display: flex;
+}
+.money{
+    display: flex;
+}
+.money h3{
+    font-size: 3rem;
+    color:#27ae60;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+}
+.money p{
+    color:#27ae60;
+}
+.slide6{
+    background-color:grey;
+}
+ .cost{
+    background-color:white;
+    border: 2rem;
+    margin: 2rem; 
+    /* padding: 2rem; */
+    border-radius: 30px;
+     line-height: 200%; 
+height: 600px;
+    width:45%;;
+} 
+.pcost{
+    display: flex;
+}
+.tcost{
+    
+    margin-left: 50px;
+}
+.su{
+    text-align: center;
+}
